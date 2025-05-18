@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Program</StartupObject>
+    <RootNamespace>POS</RootNamespace>
+    <AssemblyName>HOHA</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Forms\AdminIndex.vb" />
+    <Compile Include="Forms\ApplyDiscountManually.vb" />
+    <Compile Include="Forms\AskPassword.vb" />
+    <Compile Include="Forms\AssignOrderToDriver.vb" />
+    <Compile Include="Forms\BuyLicence.vb" />
+    <Compile Include="Forms\CalculateCustomerChange.vb" />
+    <Compile Include="Forms\CallerID.vb" />
+    <Compile Include="Forms\CustomerReCall.vb" />
+    <Compile Include="Forms\Customers.vb" />
+    <Compile Include="Forms\DemoSelectMenu.vb" />
+    <Compile Include="Forms\EditOrders.vb" />
+    <Compile Include="Forms\Edit_Customers.vb" />
+    <Compile Include="Forms\FinalWindowOnComplete.vb" />
+    <Compile Include="Forms\Form_Edit_Price.vb" />
+    <Compile Include="Forms\Form_Glass.vb" />
+    <Compile Include="Forms\FreeFoodsOffer.vb" />
+    <Compile Include="Forms\Incoming_Calls.vb" />
+    <Compile Include="Forms\Index.vb" />
+    <Compile Include="Forms\Keyboard.vb" />
+    <Compile Include="Forms\MealSelected.vb" />
+    <Compile Include="Forms\M_Shopping_Cart.vb" />
+    <Compile Include="Forms\M_TLP_Category.vb" />
+    <Compile Include="Forms\M_TLP_Foods.vb" />
+    <Compile Include="Forms\M_TLP_Options.vb" />
+    <Compile Include="Forms\M_TLP_Sizes.vb" />
+    <Compile Include="Forms\OccupiedTables.vb" />
+    <Compile Include="Forms\offers.vb" />
+    <Compile Include="Forms\OrderCommentAdd.vb" />
+    <Compile Include="Forms\OrderManagment.vb" />
+    <Compile Include="Forms\PostCode.vb" />
+    <Compile Include="Forms\POS_Window.vb" />
+    <Compile Include="Forms\Register.vb" />
+    <Compile Include="Forms\TableSelection.vb" />
+    <Compile Include="Modules\Abolfazl_Settings,txt.vb" />
+    <Compile Include="Modules\General_Settings.vb" />
+    <Compile Include="Modules\LockSoftware.vb" />
+    <Compile Include="Modules\M_Calculates.vb" />
+    <Compile Include="Modules\M_Settings.vb" />
+    <Compile Include="Modules\Online.vb" />
+    <Compile Include="Modules\Printing_Setup.vb" />
+    <Compile Include="Modules\Prints.vb" />
+    <Compile Include="Modules\RePrintSaleReport.vb" />
+    <Compile Include="Modules\SuspiciousActivities.vb" />
+  </ItemGroup>
+</Project>
